@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documento</title>
+    <style>
+       .ColorRojo
+       {
+         background: red;
+         
+       } 
+    </style>
+</head>
+<body>
+    <h1>Formulario </h1>
+   
+  <div class="container-fluid">
+        <form>  
+                <p>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Correo Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entra Correo">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>   
+                </p>
+
+
+                <b>
+                 <label>Nombre</label> <input type="text" name="Nombre" class="ColorRojo">
+                </br>
+             
+                <br>  
+                  <label>Apellidos</label> <input type="text" name="Apellidos">
+                </br>
+               
+                <br>  
+                  <label>Cedula</label> <input type="text" name="Cedula">
+                </br>
+             
+                <br>  
+                  <label>Direccion</label> <input type="text" name="Direccion">
+                </br>
+                
+                <br>
+                 <button onclick="mensaje()">mensaje</button>
+                 <input type="button" value=Enviar class="btn btn-danger">
+                 <img src="IMG/gatito.jpg" class="img-fluid" alt="Responsive image" width="800px" height="600px">
+                </br> 
+               </form>
+               <iframe width="1252" height="704" src="https://www.youtube.com/embed/izgYys3pG8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               
+  </div>
+
+</body>
+<script>
+function mensaje() {
+    alert("Error no se Encontro datos ");
+}</script>
+</html>
